@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <label id="department">Filter By Department:</label>
+    <select id="filterByDepartment">
+        <option value="">Departments</option>
+        <option value="hr">Hr</option>
+        <option value="finance">Finance</option>
+        <option value="marketing">Marketing</option>
+        <option value="engineering">Engineering</option>
+        <option value="operations">Operations</option>
+    </select>
+
+    <label id="gender">Filter By Gender</label>
+    <select id="filterByGender">
+        <option value="">Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+    </select>
+
+    <label id="salary">Filter By Salary</label>
+    <select id="sortBySalary">
+        <option value="">By Price</option>
+        <option value="asc">Low To High (asc)</option>
+        <option value="desc">Hign To Low (desc)</option>
+    </select>
+
+    <table>
+        <thead>
+            <tr>
+                <td>S.no</td>
+                <td></td>
+                <td>Name</td>
+                <td>Gender</td>
+                <td>Department</td>
+                <td>Salary</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    <button id="prev">Prev</button>
+    <button id="next">Next</button>
+</body>
+<script src="index.js"></script>
+</html>
